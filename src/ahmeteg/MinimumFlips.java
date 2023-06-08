@@ -2,7 +2,8 @@ package ahmeteg;
 
 public class MinimumFlips {
     public static void main(String[] args) {
-        System.out.println(minFlips(10,9,1));
+       // System.out.println(minFlips(10,9,1));
+        System.out.println(3>>1);
     }
     public static int minFlips(int a, int b, int c) {
 
