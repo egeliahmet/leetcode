@@ -2,6 +2,11 @@ package ahmeteg;
 
 public class RunningSum {
     public static void main(String[] args) {
+      String s="egg";
+      String t="add";
+      for(int i=0;i<s.length();i++){
+          s=s.replace(s.charAt(i),'a');
+      }
 
     }
     public static int[] runningSum(int[] nums) {
