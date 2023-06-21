@@ -5,6 +5,8 @@ import java.util.HashMap;
 
 public class EqualPairs {
     public static void main(String[] args) {
+
+        System.out.println("wfqdeytt".compareTo("ukqbjikyx"));
         int[][] nums=new int[][] {{11,1},{1,11}};
         equalPairs(nums);
         System.out.println(" " +nums[1][0]);

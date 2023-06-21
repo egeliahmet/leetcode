@@ -1,5 +1,7 @@
 package ahmeteg;
 
+import java.util.ArrayList;
+
 public class AddTwoNumbers {
     public static void main(String[] args) {
         ListNode node=new ListNode(9);
@@ -16,7 +18,13 @@ public class AddTwoNumbers {
 
         node3.next=node4;
         node4.next=node5;
-
+        ArrayList<Integer> arr=new ArrayList<>();
+        arr.add(2);
+        arr.get(0);
+        for(int i=1;i<arr.size();i++){
+            if(Math.abs(arr.get(i-1)-arr.get(i))<9)
+                Math.abs(arr.get(i-1)-arr.get(i));
+        }
 
        ListNode sum= addTwoNumbersWithremainder(node,node3,0);
        while (sum!=null){
